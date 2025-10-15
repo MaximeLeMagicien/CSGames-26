@@ -1,0 +1,23 @@
+meta {
+  name: Register device
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/v1/devices
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "macAddress": "AA:BB:CC:DD:EE:FF",
+    "model": "SmartTV-X1000",
+    "firmwareVersion": "2.1.4",
+    "serialNumber": "STV123456789",
+    "displayName": "Salon TV",
+    "location": "Montreal, QC",
+    "timezone": "America/Montreal"
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "configurations": [
+    {
+      "criteria": {
+        "location": "Montreal, QC",
+        "firmwareVersion": "2.1.4",
+        "timezone": "America/Montreal"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "tva",
+            "name": "TVA",
+            "number": 2,
+            "language": "fr",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.tva.ca/live"
+          },
+          {
+            "id": "radio-canada",
+            "name": "Radio-Canada",
+            "number": 7,
+            "language": "fr",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.radio-canada.ca/live"
+          },
+          {
+            "id": "cbc",
+            "name": "CBC",
+            "number": 8,
+            "language": "en",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.cbc.ca/live"
+          },
+          {
+            "id": "v",
+            "name": "V",
+            "number": 35,
+            "language": "fr",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.noovo.ca/live"
+          },
+          {
+            "id": "rds",
+            "name": "RDS",
+            "number": 24,
+            "language": "fr",
+            "category": "sport",
+            "hd": true,
+            "streamUrl": "https://stream.rds.ca/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "ici-tou-tv",
+            "name": "ICI TOU.TV",
+            "version": "3.2.1",
+            "downloadUrl": "https://apps.tv/icitoutv.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "crave",
+            "name": "Crave",
+            "version": "4.1.8",
+            "downloadUrl": "https://apps.tv/crave.apk",
+            "autoInstall": false,
+            "position": 2
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 3
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "version": "5.2.4",
+            "downloadUrl": "https://apps.tv/primevideo.apk",
+            "autoInstall": false,
+            "position": 4
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "8.8.8.8",
+            "secondary": "8.8.4.4"
+          },
+          "ntp": [
+            "time.nrc.ca",
+            "time.google.com"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-ca.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-montreal.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "fr-CA",
+          "fallbackLanguage": "en-CA",
+          "dateFormat": "dd/mm/yyyy",
+          "timeFormat": "24h",
+          "currency": "CAD",
+          "temperatureUnit": "celsius"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": true,
+          "weatherProvider": "Environment Canada",
+          "newsProvider": "Radio-Canada",
+          "regulations": {
+            "crtc": {
+              "canadianContent": true,
+              "closedCaptions": true,
+              "parentalControls": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "criteria": {
+        "location": "Toronto, ON",
+        "firmwareVersion": "2.2.1",
+        "timezone": "America/Toronto"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "cbc-toronto",
+            "name": "CBC Toronto",
+            "number": 5,
+            "language": "en",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.cbc.ca/toronto/live"
+          },
+          {
+            "id": "ctv-toronto",
+            "name": "CTV Toronto",
+            "number": 9,
+            "language": "en",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.ctv.ca/toronto/live"
+          },
+          {
+            "id": "global-toronto",
+            "name": "Global Toronto",
+            "number": 6,
+            "language": "en",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.globaltv.com/toronto/live"
+          },
+          {
+            "id": "sportsnet-ontario",
+            "name": "Sportsnet Ontario",
+            "number": 22,
+            "language": "en",
+            "category": "sport",
+            "hd": true,
+            "streamUrl": "https://stream.sportsnet.ca/ontario/live"
+          },
+          {
+            "id": "tvo",
+            "name": "TVO",
+            "number": 19,
+            "language": "en",
+            "category": "educational",
+            "hd": true,
+            "streamUrl": "https://stream.tvo.org/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "cbc-gem",
+            "name": "CBC Gem",
+            "version": "2.8.3",
+            "downloadUrl": "https://apps.tv/cbcgem.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "crave",
+            "name": "Crave",
+            "version": "4.1.8",
+            "downloadUrl": "https://apps.tv/crave.apk",
+            "autoInstall": true,
+            "position": 2
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 3
+          },
+          {
+            "id": "disney-plus",
+            "name": "Disney+",
+            "version": "1.18.4",
+            "downloadUrl": "https://apps.tv/disneyplus.apk",
+            "autoInstall": false,
+            "position": 4
+          },
+          {
+            "id": "ctv-app",
+            "name": "CTV",
+            "version": "3.5.2",
+            "downloadUrl": "https://apps.tv/ctv.apk",
+            "autoInstall": false,
+            "position": 5
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "1.1.1.1",
+            "secondary": "1.0.0.1"
+          },
+          "ntp": [
+            "time.nrc.ca",
+            "pool.ntp.org"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-on.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-toronto.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "en-CA",
+          "fallbackLanguage": "fr-CA",
+          "dateFormat": "mm/dd/yyyy",
+          "timeFormat": "12h",
+          "currency": "CAD",
+          "temperatureUnit": "celsius"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": true,
+          "weatherProvider": "Environment Canada",
+          "newsProvider": "CBC News",
+          "regulations": {
+            "crtc": {
+              "canadianContent": true,
+              "closedCaptions": true,
+              "parentalControls": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "criteria": {
+        "location": "Vancouver, BC",
+        "firmwareVersion": "2.2.1",
+        "timezone": "America/Vancouver"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "cbc-vancouver",
+            "name": "CBC Vancouver",
+            "number": 2,
+            "language": "en",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.cbc.ca/vancouver/live"
+          },
+          {
+            "id": "ctv-vancouver",
+            "name": "CTV Vancouver",
+            "number": 6,
+            "language": "en",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.ctv.ca/vancouver/live"
+          },
+          {
+            "id": "global-bc",
+            "name": "Global BC",
+            "number": 8,
+            "language": "en",
+            "category": "generaliste",
+            "hd": true,
+            "streamUrl": "https://stream.globaltv.com/bc/live"
+          },
+          {
+            "id": "sportsnet-pacific",
+            "name": "Sportsnet Pacific",
+            "number": 24,
+            "language": "en",
+            "category": "sport",
+            "hd": true,
+            "streamUrl": "https://stream.sportsnet.ca/pacific/live"
+          },
+          {
+            "id": "knowledge-network",
+            "name": "Knowledge Network",
+            "number": 12,
+            "language": "en",
+            "category": "educational",
+            "hd": true,
+            "streamUrl": "https://stream.knowledge.ca/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "cbc-gem",
+            "name": "CBC Gem",
+            "version": "2.8.3",
+            "downloadUrl": "https://apps.tv/cbcgem.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 2
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "version": "5.2.4",
+            "downloadUrl": "https://apps.tv/primevideo.apk",
+            "autoInstall": true,
+            "position": 3
+          },
+          {
+            "id": "crave",
+            "name": "Crave",
+            "version": "4.1.8",
+            "downloadUrl": "https://apps.tv/crave.apk",
+            "autoInstall": false,
+            "position": 4
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "8.8.8.8",
+            "secondary": "8.8.4.4"
+          },
+          "ntp": [
+            "time.nrc.ca",
+            "time.cloudflare.com"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-bc.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-vancouver.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "en-CA",
+          "fallbackLanguage": "fr-CA",
+          "dateFormat": "mm/dd/yyyy",
+          "timeFormat": "12h",
+          "currency": "CAD",
+          "temperatureUnit": "celsius"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": true,
+          "weatherProvider": "Environment Canada",
+          "newsProvider": "CBC News",
+          "regulations": {
+            "crtc": {
+              "canadianContent": true,
+              "closedCaptions": true,
+              "parentalControls": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "criteria": {
+        "location": "New York, NY",
+        "firmwareVersion": "2.1.4",
+        "timezone": "America/New_York"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "wabc",
+            "name": "ABC 7 (WABC)",
+            "number": 7,
+            "language": "en",
+            "category": "broadcast",
+            "hd": true,
+            "streamUrl": "https://stream.abc.com/wabc/live"
+          },
+          {
+            "id": "wcbs",
+            "name": "CBS 2 (WCBS)",
+            "number": 2,
+            "language": "en",
+            "category": "broadcast",
+            "hd": true,
+            "streamUrl": "https://stream.cbs.com/wcbs/live"
+          },
+          {
+            "id": "wnbc",
+            "name": "NBC 4 (WNBC)",
+            "number": 4,
+            "language": "en",
+            "category": "broadcast",
+            "hd": true,
+            "streamUrl": "https://stream.nbc.com/wnbc/live"
+          },
+          {
+            "id": "wnyw",
+            "name": "FOX 5 (WNYW)",
+            "number": 5,
+            "language": "en",
+            "category": "broadcast",
+            "hd": true,
+            "streamUrl": "https://stream.fox.com/wnyw/live"
+          },
+          {
+            "id": "espn",
+            "name": "ESPN",
+            "number": 22,
+            "language": "en",
+            "category": "sport",
+            "hd": true,
+            "streamUrl": "https://stream.espn.com/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "hulu",
+            "name": "Hulu",
+            "version": "6.54.0",
+            "downloadUrl": "https://apps.tv/hulu.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 2
+          },
+          {
+            "id": "disney-plus",
+            "name": "Disney+",
+            "version": "1.18.4",
+            "downloadUrl": "https://apps.tv/disneyplus.apk",
+            "autoInstall": true,
+            "position": 3
+          },
+          {
+            "id": "hbo-max",
+            "name": "Max",
+            "version": "52.35.1",
+            "downloadUrl": "https://apps.tv/max.apk",
+            "autoInstall": false,
+            "position": 4
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "version": "5.2.4",
+            "downloadUrl": "https://apps.tv/primevideo.apk",
+            "autoInstall": false,
+            "position": 5
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "8.8.8.8",
+            "secondary": "8.8.4.4"
+          },
+          "ntp": [
+            "time.google.com",
+            "pool.ntp.org"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-ny.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-newyork.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "en-US",
+          "fallbackLanguage": "es-US",
+          "dateFormat": "mm/dd/yyyy",
+          "timeFormat": "12h",
+          "currency": "USD",
+          "temperatureUnit": "fahrenheit"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": true,
+          "weatherProvider": "National Weather Service",
+          "newsProvider": "ABC News",
+          "regulations": {
+            "fcc": {
+              "closedCaptions": true,
+              "parentalControls": true,
+              "loudnessControl": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "criteria": {
+        "location": "London, UK",
+        "firmwareVersion": "2.2.1",
+        "timezone": "Europe/London"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "bbc-one",
+            "name": "BBC One",
+            "number": 1,
+            "language": "en",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.bbc.co.uk/one/live"
+          },
+          {
+            "id": "bbc-two",
+            "name": "BBC Two",
+            "number": 2,
+            "language": "en",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.bbc.co.uk/two/live"
+          },
+          {
+            "id": "itv",
+            "name": "ITV",
+            "number": 3,
+            "language": "en",
+            "category": "commercial",
+            "hd": true,
+            "streamUrl": "https://stream.itv.com/live"
+          },
+          {
+            "id": "channel4",
+            "name": "Channel 4",
+            "number": 4,
+            "language": "en",
+            "category": "commercial",
+            "hd": true,
+            "streamUrl": "https://stream.channel4.com/live"
+          },
+          {
+            "id": "sky-sports",
+            "name": "Sky Sports",
+            "number": 401,
+            "language": "en",
+            "category": "sport",
+            "hd": true,
+            "streamUrl": "https://stream.skysports.com/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "bbc-iplayer",
+            "name": "BBC iPlayer",
+            "version": "4.129.0",
+            "downloadUrl": "https://apps.tv/bbciplayer.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "itv-hub",
+            "name": "ITVX",
+            "version": "14.4.0",
+            "downloadUrl": "https://apps.tv/itvx.apk",
+            "autoInstall": true,
+            "position": 2
+          },
+          {
+            "id": "channel4",
+            "name": "All 4",
+            "version": "3.8.2",
+            "downloadUrl": "https://apps.tv/all4.apk",
+            "autoInstall": true,
+            "position": 3
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 4
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "version": "5.2.4",
+            "downloadUrl": "https://apps.tv/primevideo.apk",
+            "autoInstall": false,
+            "position": 5
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "1.1.1.1",
+            "secondary": "1.0.0.1"
+          },
+          "ntp": [
+            "time.google.com",
+            "pool.ntp.org"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-uk.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-london.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "en-GB",
+          "fallbackLanguage": "en-US",
+          "dateFormat": "dd/mm/yyyy",
+          "timeFormat": "24h",
+          "currency": "GBP",
+          "temperatureUnit": "celsius"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": false,
+          "weatherProvider": "Met Office",
+          "newsProvider": "BBC News",
+          "regulations": {
+            "ofcom": {
+              "watershedHours": "21:00-05:30",
+              "closedCaptions": true,
+              "parentalControls": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "criteria": {
+        "location": "Paris, FR",
+        "firmwareVersion": "2.1.4",
+        "timezone": "Europe/Paris"
+      },
+      "config": {
+        "channels": [
+          {
+            "id": "tf1",
+            "name": "TF1",
+            "number": 1,
+            "language": "fr",
+            "category": "commercial",
+            "hd": true,
+            "streamUrl": "https://stream.tf1.fr/live"
+          },
+          {
+            "id": "france2",
+            "name": "France 2",
+            "number": 2,
+            "language": "fr",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.france.tv/france2/live"
+          },
+          {
+            "id": "france3",
+            "name": "France 3",
+            "number": 3,
+            "language": "fr",
+            "category": "public",
+            "hd": true,
+            "streamUrl": "https://stream.france.tv/france3/live"
+          },
+          {
+            "id": "m6",
+            "name": "M6",
+            "number": 6,
+            "language": "fr",
+            "category": "commercial",
+            "hd": true,
+            "streamUrl": "https://stream.m6.fr/live"
+          },
+          {
+            "id": "canal-plus",
+            "name": "Canal+",
+            "number": 4,
+            "language": "fr",
+            "category": "premium",
+            "hd": true,
+            "streamUrl": "https://stream.canalplus.com/live"
+          }
+        ],
+        "applications": [
+          {
+            "id": "france-tv",
+            "name": "france.tv",
+            "version": "8.9.0",
+            "downloadUrl": "https://apps.tv/francetv.apk",
+            "autoInstall": true,
+            "position": 1
+          },
+          {
+            "id": "tf1-plus",
+            "name": "TF1+",
+            "version": "3.2.1",
+            "downloadUrl": "https://apps.tv/tf1plus.apk",
+            "autoInstall": true,
+            "position": 2
+          },
+          {
+            "id": "canal-plus-app",
+            "name": "Canal+",
+            "version": "6.45.2",
+            "downloadUrl": "https://apps.tv/canalplus.apk",
+            "autoInstall": false,
+            "position": 3
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "version": "8.97.1",
+            "downloadUrl": "https://apps.tv/netflix.apk",
+            "autoInstall": true,
+            "position": 4
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "version": "5.2.4",
+            "downloadUrl": "https://apps.tv/primevideo.apk",
+            "autoInstall": false,
+            "position": 5
+          }
+        ],
+        "networkSettings": {
+          "dns": {
+            "primary": "8.8.8.8",
+            "secondary": "8.8.4.4"
+          },
+          "ntp": [
+            "time.google.com",
+            "pool.ntp.org"
+          ],
+          "proxy": null,
+          "updateServer": "https://updates-fr.smarttv.com",
+          "contentDeliveryNetwork": "https://cdn-paris.smarttv.com"
+        },
+        "displaySettings": {
+          "language": "fr-FR",
+          "fallbackLanguage": "en-FR",
+          "dateFormat": "dd/mm/yyyy",
+          "timeFormat": "24h",
+          "currency": "EUR",
+          "temperatureUnit": "celsius"
+        },
+        "regionalSettings": {
+          "emergencyAlerts": false,
+          "weatherProvider": "Météo-France",
+          "newsProvider": "France Info",
+          "regulations": {
+            "csa": {
+              "frenchContentQuota": true,
+              "closedCaptions": true,
+              "parentalControls": true
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fallbackConfig": {
+    "criteria": {
+      "location": "*",
+      "firmwareVersion": "*",
+      "timezone": "*"
+    },
+    "config": {
+      "channels": [
+        {
+          "id": "generic-news",
+          "name": "International News",
+          "number": 1,
+          "language": "en",
+          "category": "news",
+          "hd": true,
+          "streamUrl": "https://stream.global.tv/news/live"
+        },
+        {
+          "id": "generic-entertainment",
+          "name": "Global Entertainment",
+          "number": 2,
+          "language": "en",
+          "category": "entertainment",
+          "hd": true,
+          "streamUrl": "https://stream.global.tv/entertainment/live"
+        }
+      ],
+      "applications": [
+        {
+          "id": "netflix",
+          "name": "Netflix",
+          "version": "8.97.1",
+          "downloadUrl": "https://apps.tv/netflix.apk",
+          "autoInstall": true,
+          "position": 1
+        },
+        {
+          "id": "youtube",
+          "name": "YouTube",
+          "version": "2.18.08",
+          "downloadUrl": "https://apps.tv/youtube.apk",
+          "autoInstall": true,
+          "position": 2
+        }
+      ],
+      "networkSettings": {
+        "dns": {
+          "primary": "8.8.8.8",
+          "secondary": "8.8.4.4"
+        },
+        "ntp": [
+          "pool.ntp.org",
+          "time.google.com"
+        ],
+        "proxy": null,
+        "updateServer": "https://updates.smarttv.com",
+        "contentDeliveryNetwork": "https://cdn.smarttv.com"
+      },
+      "displaySettings": {
+        "language": "en-US",
+        "fallbackLanguage": "en-US",
+        "dateFormat": "mm/dd/yyyy",
+        "timeFormat": "12h",
+        "currency": "USD",
+        "temperatureUnit": "celsius"
+      },
+      "regionalSettings": {
+        "emergencyAlerts": false,
+        "weatherProvider": "OpenWeatherMap",
+        "newsProvider": "Reuters",
+        "regulations": {}
+      }
+    }
+  }
+}
