@@ -6,6 +6,8 @@ from cs_qualif_step2.core.domain.device.devicefactory import DeviceFactory
 from cs_qualif_step2.core.domain.device.exception.device_with_same_mac_address_exception import \
     DeviceWithSameMacAddressException
 
+from cs_qualif_step2.core.domain.device.exception.device_not_found import DeviceNotFoundException
+
 
 class DeviceService:
     def __init__(self, device_repository: DeviceRepository, device_factory: DeviceFactory) -> None:
@@ -22,3 +24,11 @@ class DeviceService:
         self.device_repository.save(device)
 
         return str(device.get_device_id())
+
+    def update_device(self, device_config : DeviceConfig):
+        device = self.device_repository.find_by_mac_address(device_config.macAddress)
+        if not device:
+            raise DeviceNotFoundException(device_config.macAddress)
+        
+        self.device_repository
+        

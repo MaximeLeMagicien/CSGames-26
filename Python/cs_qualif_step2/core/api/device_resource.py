@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse
 from cs_qualif_step2.core.application.dto.device_config import DeviceConfig
 from cs_qualif_step2.config.get_device_service import get_device_service
 from cs_qualif_step2.core.api.dto.request.register_device_request import DeviceRegistrationRequest
+from cs_qualif_step2.core.api.dto.request.update_device_request import DeviceUpdateRequest
 from cs_qualif_step2.core.application.device_service import DeviceService
 
 device_router = APIRouter(
@@ -35,3 +36,10 @@ def register_device(
         status_code=status.HTTP_200_OK,
         content={"device_id": device_id}
     )
+
+@device_router.put("/{deviceID}")
+def updateDeviceInfos(
+    device_update_request : DeviceUpdateRequest,
+    device_service : DeviceService = Depends(get_device_service)
+):
+    pass
